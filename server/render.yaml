@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: react-mail-server
+    env: node
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
